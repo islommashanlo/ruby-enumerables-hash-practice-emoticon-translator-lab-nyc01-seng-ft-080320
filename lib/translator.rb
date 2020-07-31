@@ -29,7 +29,11 @@ def get_japanese_emoticon(locat, emoticon)
       response == meaning[language][:japanese]
     end
   end
-  response
+  if response == nil
+    return "Sorry, that emoticon was not found"
+  else
+    return response
+  end
 end
 
 def get_english_meaning(locat, emoticon)
