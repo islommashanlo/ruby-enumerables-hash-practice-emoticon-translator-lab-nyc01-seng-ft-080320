@@ -34,11 +34,6 @@ def get_japanese_emoticon(locat, emoticon)
       return response
     end
 
-
-
-
-
-
   end
 end
 
