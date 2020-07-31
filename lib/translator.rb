@@ -27,13 +27,16 @@ end
 
 def get_english_meaning(locat, emoticon)
   # code goes here
-  emoticons = YAML.load_file(locat)
   emoticon_hash = load_library(locat)
   response = nil
-  emoticon_hash.each do |meaning, emoticon_set|
-    if emoticon == emoticon_set
-      then response = meaning
-    else return "Try again"
+  emoticon_hash.each do |meaning, language|
+    if language[:japanese] == emoticon
+      response = meaning
     end
   end
+    if response == nil
+      return "Sorry, that emoticon was not found"
+    else
+      return response
+    end
 end
