@@ -33,7 +33,7 @@ def get_japanese_emoticon(locat, emoticon)
     else
       return response
     end
-      
+
 
 
 
