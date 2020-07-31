@@ -25,6 +25,7 @@ def get_japanese_emoticon(locat, emoticon)
   emoticon_hash = load_library(locat)
   response = nil
   emoticon_hash.each do |meaning, language|
+    if emoticon == language[:english]
 
 
 
