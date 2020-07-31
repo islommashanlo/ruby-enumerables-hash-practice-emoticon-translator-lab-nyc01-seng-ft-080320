@@ -28,8 +28,8 @@ def get_japanese_emoticon(locat, emoticon)
     if emoticon == language[:english]
       response == language[:japanese]
     end
-    response
   end
+  response
 end
 
 def get_english_meaning(locat, emoticon)
