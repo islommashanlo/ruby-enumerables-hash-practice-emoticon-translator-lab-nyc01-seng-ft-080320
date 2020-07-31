@@ -29,7 +29,7 @@ def get_japanese_emoticon(locat, emoticon)
 
 
 
-    
+
   end
 end
 
