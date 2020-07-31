@@ -24,6 +24,7 @@ def get_japanese_emoticon(locat, emoticon)
   # code goes here
   emoticon_hash = load_library(locat)
   response = nil
+  emoticon_hash.each do |meaning, language|
 end
 
 def get_english_meaning(locat, emoticon)
