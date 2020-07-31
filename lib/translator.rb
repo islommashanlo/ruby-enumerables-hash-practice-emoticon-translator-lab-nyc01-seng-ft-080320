@@ -28,7 +28,7 @@ def get_japanese_emoticon(locat, emoticon)
     if emoticon == language[:english]
       response == language[:japanese]
     end
-
+    response
   end
 end
 
