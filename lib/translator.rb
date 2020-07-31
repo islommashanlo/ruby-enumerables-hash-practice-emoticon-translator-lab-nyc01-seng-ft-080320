@@ -26,7 +26,7 @@ def get_japanese_emoticon(locat, emoticon)
   response = nil
   emoticon_hash.each do |meaning, language|
     if emoticon == language[:english]
-      response == meaning[language][:japanese]
+      response == meaning[:japanese]
     end
   end
   if response == nil
