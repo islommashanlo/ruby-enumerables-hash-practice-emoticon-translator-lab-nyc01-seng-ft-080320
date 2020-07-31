@@ -28,11 +28,6 @@ def get_japanese_emoticon(locat, emoticon)
     if emoticon == language[:english]
       response == language[:japanese]
     end
-    if response == nil
-      return "Sorry, that emoticon was not found"
-    else
-      return response
-    end
 
   end
 end
